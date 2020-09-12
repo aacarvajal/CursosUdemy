@@ -1,0 +1,15 @@
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.exe
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.deps.json
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.runtimeconfig.json
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.runtimeconfig.dev.json
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\WinFormsContacts.pdb
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.DetalleContactos.resources
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.Form1.resources
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.csproj.GenerateResource.cache
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.AssemblyInfoInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.AssemblyInfo.cs
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.pdb
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.genruntimeconfig.cache
