@@ -13,3 +13,11 @@ E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\net
 E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.dll
 E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.pdb
 E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.genruntimeconfig.cache
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\las cosas\Cursos\Cursos Udemy\WinFormsContacts\WinFormsContacts\obj\Debug\netcoreapp3.1\WinFormsContacts.csproj.CopyComplete

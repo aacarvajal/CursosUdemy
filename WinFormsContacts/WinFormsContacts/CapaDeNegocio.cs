@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows;
+using WinFormsContacts;
 
-namespace WinFormsContacts
+namespace FormsWinContacts
 {
     public class CapaDeNegocio
     {
@@ -22,7 +24,8 @@ namespace WinFormsContacts
             if(c.id == 0)
             {
 
-                //cad.InsertarContactos();
+                cad.InsertarContactos(c);
+                MessageBox.Show("Contacto añadido");
 
             }
             else
@@ -31,6 +34,8 @@ namespace WinFormsContacts
                 //cad.ActualizarContactos();
 
             }
+
+            return c;
 
         }
 

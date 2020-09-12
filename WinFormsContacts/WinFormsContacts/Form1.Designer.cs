@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gridContacts = new System.Windows.Forms.DataGridView();
             this.labelSearch = new System.Windows.Forms.Label();
             this.textSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.gridContacts = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.gridContacts)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gridContacts
-            // 
-            this.gridContacts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridContacts.Location = new System.Drawing.Point(12, 108);
-            this.gridContacts.Name = "gridContacts";
-            this.gridContacts.Size = new System.Drawing.Size(776, 330);
-            this.gridContacts.TabIndex = 0;
-            this.gridContacts.Text = "dataGridView1";
-            this.gridContacts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // labelSearch
             // 
@@ -85,6 +75,16 @@
             this.btnAdd.Text = "Añadir";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // gridContacts
+            // 
+            this.gridContacts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridContacts.Location = new System.Drawing.Point(12, 108);
+            this.gridContacts.Name = "gridContacts";
+            this.gridContacts.Size = new System.Drawing.Size(776, 330);
+            this.gridContacts.TabIndex = 0;
+            this.gridContacts.Text = "dataGridView1";
+            this.gridContacts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form1
             // 

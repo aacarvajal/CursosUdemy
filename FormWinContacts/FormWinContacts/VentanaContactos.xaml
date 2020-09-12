@@ -1,0 +1,27 @@
+﻿<Window x:Class="FormWinContacts.VentanaContactos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormWinContacts"
+        mc:Ignorable="d"
+        Title="VentanaContactos" Height="225.453" Width="531.086">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="29*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Nombre" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,36,0,0"/>
+        <Label Content="Apellidos" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,36,0,0" Grid.Column="1"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,91,0,0"/>
+        <Label Content="Direccion" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,91,0,0" Grid.Column="1"/>
+        <TextBox Name="nombre" HorizontalAlignment="Left" Height="23" Margin="85,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Grid.ColumnSpan="2"/>
+        <TextBox Name="apellidos" HorizontalAlignment="Left" Height="23" Margin="226,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox Name="telefono" HorizontalAlignment="Left" Height="23" Margin="85,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Grid.ColumnSpan="2"/>
+        <TextBox Name="direccion" HorizontalAlignment="Left" Height="23" Margin="226,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnGuardar_Click"/>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="265,149,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnCancelar_Click"/>
+
+    </Grid>
+</Window>

@@ -38,7 +38,9 @@ namespace WinFormsContacts
             c.telefono = textBoxTlfn.Text;
             c.direccion = textBoxDireccion.Text;
 
-            
+            cdn.GuardarContacto(c);
+
+            this.Close();
 
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WinFormsContacts
+namespace FormsWinContacts
 {
     public class Contactos
     {
