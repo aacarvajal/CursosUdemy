@@ -39,5 +39,12 @@ namespace FormsWinContacts
 
         }
 
+        public List<Contactos> GetContactos()
+        {
+
+            return cad.GetContactos();
+
+        }
+
     }
 }

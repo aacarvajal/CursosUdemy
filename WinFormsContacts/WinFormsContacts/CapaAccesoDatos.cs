@@ -11,6 +11,7 @@ namespace WinFormsContacts
     {
 
         private SqlConnection conn = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=WinFormsContact;Data Source=DESKTOP-IP0D3I2");
+        //private SqlConnection conn = new SqlConnection("FormWinContacts.Properties.Settings.WinFormsContactConnectionString");
 
         public void InsertarContactos(Contactos c)
         {
@@ -55,6 +56,52 @@ namespace WinFormsContacts
                 conn.Close();
 
             }
+
+        }
+
+        public List<Contactos> GetContactos()
+        {
+
+            List<Contactos> contacto = new List<Contactos>();
+
+            try
+            {
+
+                conn.Open();
+
+                string query = @"select nombre, apellidos, telefono, direccion from contactos";
+
+                SqlCommand comm = new SqlCommand(query);
+
+                SqlDataReader read = comm.ExecuteReader();
+
+                while (read.Read())
+                {
+
+                    contacto.Add(new Contactos
+                    {
+
+                        id = int.Parse(read["id"].ToString()),
+                        nombre = read["nombre"].ToString(),
+                        apellidos = read["apellidos"].ToString(),
+                        telefono = read["telefono"].ToString(),
+                        direccion = read["direccion "].ToString()
+                    });
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return contacto;
 
         }
 

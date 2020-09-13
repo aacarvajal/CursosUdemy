@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using FormsWinContacts;
 
 namespace FormWinContacts
 {
@@ -28,6 +29,8 @@ namespace FormWinContacts
 
         SqlConnection sqlcon;
 
+        CapaDeNegocio cdn;
+
         public MainWindow()
         {
 
@@ -38,6 +41,8 @@ namespace FormWinContacts
             sqlcon = new SqlConnection(conn);
 
             MuestraContactos();
+
+            cdn = new CapaDeNegocio();
 
         }
 
@@ -55,11 +60,13 @@ namespace FormWinContacts
 
             dc.WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
+            this.Close();
+
             dc.ShowDialog();
 
         }
 
-        private void MuestraContactos()
+        public void MuestraContactos()
         {
 
             try
@@ -76,16 +83,16 @@ namespace FormWinContacts
 
                     sqlda.Fill(contactoTabla);//rellena la informacion
 
-                    listaContactos.DisplayMemberPath = "nombre";
+                    //contactosListView.DisplayMemberPath = "nombre";
 
                     //listaContactos.DisplayMemberPath = "nombre";
                     //se especifica la columna que quiero que aparezca si es solo una
 
                     //clave primaria
-                    listaContactos.SelectedValuePath = "id";
+                    //contactosListView.SelectedValuePath = "id";
 
                     //origen de datos
-                    listaContactos.ItemsSource = contactoTabla.DefaultView;
+                    contactosListView.ItemsSource = contactoTabla.DefaultView;
 
                 }
 
@@ -99,6 +106,28 @@ namespace FormWinContacts
 
         }
 
+        private void contactos()
+        {
+
+            List<Contactos> contactos = cdn.GetContactos();
+
+            contactosListView.DataContext = contactos;
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            //FormWinContacts.WinFormsContactDataSet winFormsContactDataSet = ((FormWinContacts.WinFormsContactDataSet)(this.FindResource("winFormsContactDataSet")));
+            // Cargar datos en la tabla Contactos. Puede modificar este código según sea necesario.
+            /*FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter winFormsContactDataSetContactosTableAdapter = new FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter();
+            winFormsContactDataSetContactosTableAdapter.Fill(winFormsContactDataSet.Contactos);
+            System.Windows.Data.CollectionViewSource contactosViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("contactosViewSource")));
+            contactosViewSource.View.MoveCurrentToFirst();*/
+
+            //MuestraContactos();
+
+        }
     }
 }
             

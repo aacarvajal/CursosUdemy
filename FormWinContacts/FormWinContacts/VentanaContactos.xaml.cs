@@ -22,12 +22,14 @@ namespace FormWinContacts
     {
 
         CapaDeNegocio cdn;
+        MainWindow mw;
 
         public VentanaContactos()
         {
             InitializeComponent();
 
             cdn = new CapaDeNegocio();
+            mw = new MainWindow();
 
         }
 
@@ -51,6 +53,10 @@ namespace FormWinContacts
             cdn.GuardarContacto(c);
 
             this.Close();
+
+            mw.MuestraContactos();
+
+            mw.Show();
 
         }
     }

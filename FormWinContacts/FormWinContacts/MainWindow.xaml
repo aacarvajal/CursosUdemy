@@ -5,14 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FormWinContacts"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ListBox Name="listaContactos" HorizontalAlignment="Left" Height="238" Margin="10,144,0,0" VerticalAlignment="Top" Width="772"/>
-
+        Title="MainWindow" Height="415.726" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:WinFormsContactDataSet x:Key="winFormsContactDataSet"/>
+        <CollectionViewSource x:Key="contactosViewSource" Source="{Binding Contactos, Source={StaticResource winFormsContactDataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource contactosViewSource}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--<ListBox Name="listaContactos" HorizontalAlignment="Left" Height="238" Margin="10,144,0,0" VerticalAlignment="Top" Width="772"/>-->
         <Label Name="Search" Content="Buscar" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top"/>
         <TextBox Name="Buscador" HorizontalAlignment="Left" Height="23" Margin="96,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="413"/>
         <Button Name="Buscar" Content="Buscar" HorizontalAlignment="Left" Margin="563,52,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Name="Añadir" Content="Añadir" HorizontalAlignment="Left" Margin="657,53,0,0" VerticalAlignment="Top" Width="75" Click="Añadir_Click"/>
-
+        <!--<ListBox Name="contactosListBox" DisplayMemberPath="id" ItemsSource="{Binding}" Margin="10,397,10,317" SelectedValuePath="id"/>-->
+        <ListView Name="contactosListView" DisplayMemberPath="id" Margin="10,103,10,10" SelectedValuePath="id" SelectionMode="Single">
+            <!--<ListBox Height="100" Width="100"/>-->
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="140" Header="Id" DisplayMemberBinding="{Binding id}"/>
+                    <GridViewColumn Width="140" Header="Nombre" DisplayMemberBinding="{Binding nombre}"/>
+                    <GridViewColumn Width="140" Header="Apellidos" DisplayMemberBinding="{Binding apellidos}" />
+                    <GridViewColumn Width="140" Header="Telefono" DisplayMemberBinding="{Binding telefono}" />
+                    <GridViewColumn Width="140" Header="Direccion" DisplayMemberBinding="{Binding direccion}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

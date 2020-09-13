@@ -15,3 +15,4 @@ E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormW
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormWinContacts.csproj.CoreCompileInputs.cache
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormWinContacts.exe
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormWinContacts.pdb
+E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\GeneratedInternalTypeHelper.g.cs
