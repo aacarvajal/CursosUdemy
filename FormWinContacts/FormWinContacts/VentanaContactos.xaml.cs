@@ -18,18 +18,23 @@ namespace FormWinContacts
     /// <summary>
     /// Lógica de interacción para VentanaContactos.xaml
     /// </summary>
+    /// 
     public partial class VentanaContactos : Window
     {
 
         CapaDeNegocio cdn;
         MainWindow mw;
 
+        //Contactos cont;
+
+        //public VentanaContactos(int id){}
+
         public VentanaContactos()
         {
             InitializeComponent();
 
             cdn = new CapaDeNegocio();
-            mw = new MainWindow();
+            //mw = new MainWindow();
 
         }
 
@@ -37,6 +42,8 @@ namespace FormWinContacts
         {
 
             this.Close();
+            mw.MuestraContactos();
+            mw.Show();
 
         }
 
@@ -59,5 +66,43 @@ namespace FormWinContacts
             mw.Show();
 
         }
+
+        public void CargarContactos(Contactos c)
+        {
+
+            //int idContacto = id;
+
+            //cont = c;
+
+            if(c != null)
+            {
+
+                ClearForm();
+
+                nombre.Text = c.nombre;
+
+                apellidos.Text = c.apellidos;
+
+                direccion.Text = c.direccion;
+
+                telefono.Text = c.telefono;
+
+            }
+
+        }
+
+        private void ClearForm()
+        {
+
+            nombre.Text = string.Empty;
+
+            apellidos.Text = string.Empty;
+
+            direccion.Text = string.Empty;
+
+            telefono.Text = string.Empty;
+
+        }
+
     }
 }

@@ -289,6 +289,8 @@ namespace FormWinContacts {
             
             private global::System.Data.DataColumn columndireccion;
             
+            private global::System.Data.DataColumn columneditar;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public ContactosDataTable() {
@@ -364,6 +366,14 @@ namespace FormWinContacts {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn editarColumn {
+                get {
+                    return this.columneditar;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -399,14 +409,15 @@ namespace FormWinContacts {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public ContactosRow AddContactosRow(string nombre, string apellidos, string telefono, string direccion) {
+            public ContactosRow AddContactosRow(string nombre, string apellidos, string telefono, string direccion, string editar) {
                 ContactosRow rowContactosRow = ((ContactosRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         nombre,
                         apellidos,
                         telefono,
-                        direccion};
+                        direccion,
+                        editar};
                 rowContactosRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowContactosRow);
                 return rowContactosRow;
@@ -434,6 +445,7 @@ namespace FormWinContacts {
                 this.columnapellidos = base.Columns["apellidos"];
                 this.columntelefono = base.Columns["telefono"];
                 this.columndireccion = base.Columns["direccion"];
+                this.columneditar = base.Columns["editar"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -449,6 +461,8 @@ namespace FormWinContacts {
                 base.Columns.Add(this.columntelefono);
                 this.columndireccion = new global::System.Data.DataColumn("direccion", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndireccion);
+                this.columneditar = new global::System.Data.DataColumn("editar", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columneditar);
                 this.columnid.AutoIncrement = true;
                 this.columnid.AutoIncrementSeed = -1;
                 this.columnid.AutoIncrementStep = -1;
@@ -675,6 +689,22 @@ namespace FormWinContacts {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string editar {
+                get {
+                    try {
+                        return ((string)(this[this.tableContactos.editarColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'editar\' de la tabla \'Contactos\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableContactos.editarColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsnombreNull() {
                 return this.IsNull(this.tableContactos.nombreColumn);
             }
@@ -719,6 +749,18 @@ namespace FormWinContacts {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetdireccionNull() {
                 this[this.tableContactos.direccionColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IseditarNull() {
+                return this.IsNull(this.tableContactos.editarColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SeteditarNull() {
+                this[this.tableContactos.editarColumn] = global::System.Convert.DBNull;
             }
         }
         

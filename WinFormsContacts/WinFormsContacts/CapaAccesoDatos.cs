@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Text;
+using System.Windows;
 
-namespace WinFormsContacts
+namespace FormsWinContacts
 {
     public class CapaAccesoDatos
     {
@@ -69,7 +70,7 @@ namespace WinFormsContacts
 
                 conn.Open();
 
-                string query = @"select nombre, apellidos, telefono, direccion from contactos";
+                string query = @" select nombre, apellidos, telefono, direccion from Contactos";
 
                 SqlCommand comm = new SqlCommand(query);
 
@@ -91,10 +92,13 @@ namespace WinFormsContacts
                 }
 
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
-                throw;
+                //throw;
+
+                MessageBox.Show(e.ToString());
+
             }
             finally
             {

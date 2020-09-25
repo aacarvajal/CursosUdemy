@@ -46,7 +46,7 @@
   <xs:element name="WinFormsContactDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="WinFormsContactDataSet" msprop:Generator_UserDSName="WinFormsContactDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Contactos" msprop:Generator_TableClassName="ContactosDataTable" msprop:Generator_TableVarName="tableContactos" msprop:Generator_TablePropName="Contactos" msprop:Generator_RowDeletingName="ContactosRowDeleting" msprop:Generator_RowChangingName="ContactosRowChanging" msprop:Generator_RowEvHandlerName="ContactosRowChangeEventHandler" msprop:Generator_RowDeletedName="ContactosRowDeleted" msprop:Generator_UserTableName="Contactos" msprop:Generator_RowChangedName="ContactosRowChanged" msprop:Generator_RowEvArgName="ContactosRowChangeEvent" msprop:Generator_RowClassName="ContactosRow">
+        <xs:element name="Contactos" msprop:Generator_TableClassName="ContactosDataTable" msprop:Generator_TableVarName="tableContactos" msprop:Generator_RowChangedName="ContactosRowChanged" msprop:Generator_TablePropName="Contactos" msprop:Generator_RowDeletingName="ContactosRowDeleting" msprop:Generator_RowChangingName="ContactosRowChanging" msprop:Generator_RowEvHandlerName="ContactosRowChangeEventHandler" msprop:Generator_RowDeletedName="ContactosRowDeleted" msprop:Generator_RowClassName="ContactosRow" msprop:Generator_UserTableName="Contactos" msprop:Generator_RowEvArgName="ContactosRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
@@ -78,6 +78,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="editar" msprop:Generator_ColumnVarNameInTable="columneditar" msprop:Generator_ColumnPropNameInRow="editar" msprop:Generator_ColumnPropNameInTable="editarColumn" msprop:Generator_UserColumnName="editar" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

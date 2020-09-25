@@ -16,3 +16,5 @@ E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormW
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormWinContacts.exe
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\FormWinContacts.pdb
 E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\ActualizaContacto.g.cs
+E:\las cosas\Cursos\Cursos Udemy\FormWinContacts\FormWinContacts\obj\Debug\ActualizaContacto.baml

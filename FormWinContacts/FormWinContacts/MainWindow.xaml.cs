@@ -31,6 +31,8 @@ namespace FormWinContacts
 
         CapaDeNegocio cdn;
 
+        VentanaContactos vc;
+
         public MainWindow()
         {
 
@@ -44,16 +46,13 @@ namespace FormWinContacts
 
             cdn = new CapaDeNegocio();
 
+            vc = new VentanaContactos();
+
+            //contactos();
+
         }
 
         private void Añadir_Click(object sender, RoutedEventArgs e)
-        {
-
-            AbrirDetalleContactos();
-
-        }
-
-        private void AbrirDetalleContactos()
         {
 
             VentanaContactos dc = new VentanaContactos();
@@ -106,28 +105,101 @@ namespace FormWinContacts
 
         }
 
-        private void contactos()
+        private void Editar_Click(object sender, RoutedEventArgs e)
         {
 
-            List<Contactos> contactos = cdn.GetContactos();
+            //obtiene el valor de la columna id
+            /*int id = (int) contactosListView.SelectedValue;
+
+            vc.CargarContactos(new Contactos
+            {
+
+                id = contactosListView.SelectedValuePath[1],
+                nombre = contactosListView.SelectedValuePath[2].ToString(),
+                apellidos = contactosListView.SelectedValuePath[3].ToString(),
+                direccion = contactosListView.SelectedValuePath[4].ToString(),
+                telefono = contactosListView.SelectedValuePath[5].ToString()
+
+            }); ;
+
+            vc.ShowDialog();*/
+
+            if (contactosListView.SelectedIndex == -1)
+            {
+
+                MessageBox.Show("No has seleccionado nada");
+
+            }
+            else
+            {
+
+                ActualizaContacto actContact = new ActualizaContacto();//(int)contactosListView.SelectedValue
+
+                actContact.Show();
+
+                try
+                {
+
+                    string consulta = "select * from contactos where id = @ClId";
+
+                    SqlCommand sqlcom = new SqlCommand(consulta, sqlcon);
+
+                    SqlDataAdapter sqlda = new SqlDataAdapter(sqlcom);
+
+                    using (sqlda)
+                    {
+
+                        sqlcom.Parameters.AddWithValue("@ClId", contactosListView.SelectedValue);
+
+                        DataTable clienteTab = new DataTable();
+
+                        sqlda.Fill(clienteTab);
+
+                        //int id = (int) clienteTab.Rows[0]["Id"];
+                        actContact.actnombre.Text = clienteTab.Rows[0]["nombre"].ToString();
+                        actContact.actapellidos.Text = clienteTab.Rows[0]["apellidos"].ToString();
+                        actContact.acttelefono.Text = clienteTab.Rows[0]["telefono"].ToString();
+                        actContact.actdireccion.Text = clienteTab.Rows[0]["direccion"].ToString();
+
+                    }
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.ToString());
+
+                }
+
+            }
+        }
+
+        //no sirve
+        /*private void contactos()
+        {
+
+            List<Contactos> contactos = new List<Contactos>();
+
+            contactos = cdn.GetContactos();
 
             contactosListView.DataContext = contactos;
 
-        }
+        }*/
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        /*private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
             //FormWinContacts.WinFormsContactDataSet winFormsContactDataSet = ((FormWinContacts.WinFormsContactDataSet)(this.FindResource("winFormsContactDataSet")));
             // Cargar datos en la tabla Contactos. Puede modificar este código según sea necesario.
-            /*FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter winFormsContactDataSetContactosTableAdapter = new FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter();
+            FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter winFormsContactDataSetContactosTableAdapter = new FormWinContacts.WinFormsContactDataSetTableAdapters.ContactosTableAdapter();
             winFormsContactDataSetContactosTableAdapter.Fill(winFormsContactDataSet.Contactos);
             System.Windows.Data.CollectionViewSource contactosViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("contactosViewSource")));
-            contactosViewSource.View.MoveCurrentToFirst();*/
+            contactosViewSource.View.MoveCurrentToFirst();
 
             //MuestraContactos();
 
-        }
+            contactos();
+
+        }*/
     }
 }
-            
