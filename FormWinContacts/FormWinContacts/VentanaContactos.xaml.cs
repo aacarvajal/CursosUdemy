@@ -23,7 +23,7 @@ namespace FormWinContacts
     {
 
         CapaDeNegocio cdn;
-        MainWindow mw;
+        //MainWindow mw;
 
         //Contactos cont;
 
@@ -42,7 +42,8 @@ namespace FormWinContacts
         {
 
             this.Close();
-            mw.MuestraContactos();
+            MainWindow mw = new MainWindow();
+            //mw.MuestraContactos();
             mw.Show();
 
         }
@@ -61,7 +62,9 @@ namespace FormWinContacts
 
             this.Close();
 
-            mw.MuestraContactos();
+            //mw.MuestraContactos();
+
+            MainWindow mw = new MainWindow();
 
             mw.Show();
 

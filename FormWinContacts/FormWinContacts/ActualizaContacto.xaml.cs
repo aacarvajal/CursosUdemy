@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +21,21 @@ namespace FormWinContacts
     /// </summary>
     public partial class ActualizaContacto : Window
     {
-        public ActualizaContacto()
+
+        private int idCont;
+
+        SqlConnection conexSql;
+
+        public ActualizaContacto(int id)
         {
             InitializeComponent();
+
+            idCont = id;
+
+            string conexionDB = ConfigurationManager.ConnectionStrings["FormWinContacts.Properties.Settings.WinFormsContactConnectionString"].ConnectionString;
+
+            conexSql = new SqlConnection(conexionDB);
+
         }
 
         private void btnCancelarAct_Click(object sender, RoutedEventArgs e)
@@ -31,6 +45,43 @@ namespace FormWinContacts
 
         private void btnActualizar_Click(object sender, RoutedEventArgs e)
         {
+
+            try
+            {
+
+                string consulta = "update contactos set nombre = @nombre, apellidos = @apellidos, " +
+                    "telefono = @telefono, direccion = @direccion where id = " + idCont;
+
+                SqlCommand sqlcom = new SqlCommand(consulta, conexSql);
+
+                //SqlDataAdapter sqlda = new SqlDataAdapter(sqlcom);
+
+                conexSql.Open();
+
+                sqlcom.Parameters.AddWithValue("@nombre", actnombre.Text);
+                sqlcom.Parameters.AddWithValue("@apellidos", actapellidos.Text);
+                sqlcom.Parameters.AddWithValue("@telefono", acttelefono.Text);
+                sqlcom.Parameters.AddWithValue("@direccion", actdireccion.Text);
+
+                sqlcom.ExecuteNonQuery();//ejecuta la sentencia
+
+                conexSql.Close();
+
+                MessageBox.Show("Cliente actualizado");
+
+                MainWindow main = new MainWindow();
+
+                main.Show();
+
+                this.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+
+            }
 
         }
     }

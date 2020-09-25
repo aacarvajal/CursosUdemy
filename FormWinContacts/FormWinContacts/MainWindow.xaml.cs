@@ -108,22 +108,6 @@ namespace FormWinContacts
         private void Editar_Click(object sender, RoutedEventArgs e)
         {
 
-            //obtiene el valor de la columna id
-            /*int id = (int) contactosListView.SelectedValue;
-
-            vc.CargarContactos(new Contactos
-            {
-
-                id = contactosListView.SelectedValuePath[1],
-                nombre = contactosListView.SelectedValuePath[2].ToString(),
-                apellidos = contactosListView.SelectedValuePath[3].ToString(),
-                direccion = contactosListView.SelectedValuePath[4].ToString(),
-                telefono = contactosListView.SelectedValuePath[5].ToString()
-
-            }); ;
-
-            vc.ShowDialog();*/
-
             if (contactosListView.SelectedIndex == -1)
             {
 
@@ -133,7 +117,7 @@ namespace FormWinContacts
             else
             {
 
-                ActualizaContacto actContact = new ActualizaContacto();//(int)contactosListView.SelectedValue
+                ActualizaContacto actContact = new ActualizaContacto((int)contactosListView.SelectedValue);
 
                 actContact.Show();
 
@@ -161,6 +145,8 @@ namespace FormWinContacts
                         actContact.acttelefono.Text = clienteTab.Rows[0]["telefono"].ToString();
                         actContact.actdireccion.Text = clienteTab.Rows[0]["direccion"].ToString();
 
+                        this.Close();
+
                     }
 
                 }
@@ -172,6 +158,117 @@ namespace FormWinContacts
                 }
 
             }
+
+        }
+
+        private void Borrar_Click(object sender, RoutedEventArgs e)
+        {
+
+            //-1 significa que esta vacio
+            if (contactosListView.SelectedIndex == -1)
+            {
+
+                MessageBox.Show("No has seleccionado nada");
+
+            }
+            else
+            {
+
+                try
+                {
+
+                    //MessageBox.Show(ListaPedidos.SelectedValue.ToString());//recoge el id del pedido
+
+                    string consulta = "delete from contactos where id=@idContacto";
+
+                    SqlCommand sqlcom = new SqlCommand(consulta, sqlcon);
+
+                    SqlDataAdapter sqlda = new SqlDataAdapter(sqlcom);
+
+                    sqlcon.Open();
+
+                    sqlcom.Parameters.AddWithValue("@idContacto", contactosListView.SelectedValue);
+
+                    sqlcom.ExecuteNonQuery();//ejecuta la sentencia
+
+                    sqlcon.Close();
+
+                    MessageBox.Show("Contacto eliminado");
+
+                    MuestraContactos();
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.ToString());
+
+                }
+            }
+
+        }
+
+        private void Buscar_Click(object sender, RoutedEventArgs e)
+        {
+
+            try
+            {
+
+                string consulta = "select * from Contactos";
+
+                SqlDataAdapter sqlda = new SqlDataAdapter(consulta, sqlcon);
+
+                using (sqlda)
+                {
+
+                    DataTable contactoTabla = new DataTable();
+
+                    SqlCommand sc = new SqlCommand();
+
+                    if (Buscador.Text != "")
+                    {
+
+                        consulta += @" where nombre LIKE @Buscador or apellidos LIKE @Buscador or 
+                                    telefono LIKE @Buscador or direccion LIKE @Buscador";
+
+                        sc.Parameters.Add(new SqlParameter("@Buscador", $"%{Buscador.Text}%"));
+
+                        sqlda.Fill(contactoTabla);//rellena la informacion
+
+                        contactosListView.ItemsSource = contactoTabla.DefaultView;
+
+                        sc.CommandText = consulta;
+                        sc.Connection = sqlcon;
+
+                    }
+                    else
+                    {
+
+                        sqlda.Fill(contactoTabla);//rellena la informacion
+
+                        //contactosListView.DisplayMemberPath = "nombre";
+
+                        //listaContactos.DisplayMemberPath = "nombre";
+                        //se especifica la columna que quiero que aparezca si es solo una
+
+                        //clave primaria
+                        //contactosListView.SelectedValuePath = "id";
+
+                        //origen de datos
+                        contactosListView.ItemsSource = contactoTabla.DefaultView;
+
+                    }
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+
+            }
+
         }
 
         //no sirve
@@ -196,7 +293,7 @@ namespace FormWinContacts
             System.Windows.Data.CollectionViewSource contactosViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("contactosViewSource")));
             contactosViewSource.View.MoveCurrentToFirst();
 
-            //MuestraContactos();
+            MuestraContactos();
 
             contactos();
 
