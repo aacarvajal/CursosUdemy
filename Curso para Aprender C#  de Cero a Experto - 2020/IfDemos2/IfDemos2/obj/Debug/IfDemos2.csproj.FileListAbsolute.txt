@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\bin\Debug\IfDemos2.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\bin\Debug\IfDemos2.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\bin\Debug\IfDemos2.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\obj\Debug\IfDemos2.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\obj\Debug\IfDemos2.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\obj\Debug\IfDemos2.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\IfDemos2\IfDemos2\obj\Debug\IfDemos2.pdb
