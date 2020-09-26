@@ -1,0 +1,13 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.deps.json
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.runtimeconfig.json
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.runtimeconfig.dev.json
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.dll
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\bin\Debug\netcoreapp3.1\MetodosDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.AssemblyInfoInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.AssemblyInfo.cs
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.dll
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\MetodosDemo\MetodosDemo\obj\Debug\netcoreapp3.1\MetodosDemo.genruntimeconfig.cache
