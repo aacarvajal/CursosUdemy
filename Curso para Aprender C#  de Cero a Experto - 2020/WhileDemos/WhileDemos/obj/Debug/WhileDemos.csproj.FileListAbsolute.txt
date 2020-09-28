@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\bin\Debug\WhileDemos.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\bin\Debug\WhileDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\bin\Debug\WhileDemos.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\obj\Debug\WhileDemos.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\obj\Debug\WhileDemos.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\obj\Debug\WhileDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\WhileDemos\WhileDemos\obj\Debug\WhileDemos.pdb

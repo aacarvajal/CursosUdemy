@@ -1,0 +1,6 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\bin\Debug\ForDemos.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\bin\Debug\ForDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\bin\Debug\ForDemos.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\obj\Debug\ForDemos.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\obj\Debug\ForDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ForDemos\ForDemos\obj\Debug\ForDemos.pdb

@@ -1,0 +1,6 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\bin\Debug\DoWhileDemos.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\bin\Debug\DoWhileDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\bin\Debug\DoWhileDemos.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\obj\Debug\DoWhileDemos.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\obj\Debug\DoWhileDemos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DoWhileDemos\DoWhileDemos\obj\Debug\DoWhileDemos.pdb
