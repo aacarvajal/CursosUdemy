@@ -1,0 +1,6 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\bin\Debug\Excepciones2Demos.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\bin\Debug\Excepciones2Demos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\bin\Debug\Excepciones2Demos.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\obj\Debug\Excepciones2Demos.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\obj\Debug\Excepciones2Demos.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Excepciones2Demos\Excepciones2Demos\obj\Debug\Excepciones2Demos.pdb
