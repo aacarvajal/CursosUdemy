@@ -9,3 +9,6 @@ E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 202
 E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\obj\Debug\ClasesDemo1.csproj.CoreCompileInputs.cache
 E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\obj\Debug\ClasesDemo1.exe
 E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\obj\Debug\ClasesDemo1.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\bin\Debug\ClasesDemo1.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\bin\Debug\ClasesDemo1.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ClasesDemo1\ClasesDemo1\bin\Debug\ClasesDemo1.pdb

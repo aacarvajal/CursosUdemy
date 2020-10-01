@@ -10,11 +10,14 @@ namespace ClasesDemo1
     {
 
         int radio;
+        public static int numCirc;
+        public const double PI = 3.14;
 
         public Circulo(int radioInicial)
         {
 
             radio = radioInicial;
+            numCirc++;
 
         }
 

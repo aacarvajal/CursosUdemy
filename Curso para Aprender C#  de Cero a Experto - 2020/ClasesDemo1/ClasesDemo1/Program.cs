@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
+using static ClasesDemo1.Circulo;
 
 namespace ClasesDemo1
 {
@@ -11,7 +13,7 @@ namespace ClasesDemo1
         static void Main(string[] args)
         {
 
-            Rectangulo r1 = new Rectangulo(23,50);
+            /*Rectangulo r1 = new Rectangulo(23,50);
             Rectangulo r2 = new Rectangulo();
 
             double resArea = r1.CalcularArea();
@@ -23,9 +25,25 @@ namespace ClasesDemo1
 
             (var baseRect, var alturaRect) = r1;
 
+            Console.WriteLine(baseRect);
+            Console.WriteLine(alturaRect);
+            
+            Console.WriteLine(Math.Pow(2,2));
+
             Console.WriteLine(resArea);
             Console.WriteLine(restPer);
-            Console.WriteLine(resPer2);
+            Console.WriteLine(resPer2);*/
+
+            Circulo c1 = new Circulo(3);
+            Circulo c2 = new Circulo(4);
+            Circulo c3 = new Circulo(5);
+
+            //Circulo.PI = 5;
+
+            Console.WriteLine(Circulo.numCirc);
+
+            //clases anonimas
+            var objAnon = new { area = 3 };
 
             Console.ReadLine();
 
