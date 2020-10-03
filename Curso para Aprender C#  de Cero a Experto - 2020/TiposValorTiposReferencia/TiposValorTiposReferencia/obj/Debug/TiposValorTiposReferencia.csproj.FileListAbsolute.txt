@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\bin\Debug\TiposValorTiposReferencia.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\bin\Debug\TiposValorTiposReferencia.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\bin\Debug\TiposValorTiposReferencia.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\obj\Debug\TiposValorTiposReferencia.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\obj\Debug\TiposValorTiposReferencia.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\obj\Debug\TiposValorTiposReferencia.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\TiposValorTiposReferencia\TiposValorTiposReferencia\obj\Debug\TiposValorTiposReferencia.pdb
