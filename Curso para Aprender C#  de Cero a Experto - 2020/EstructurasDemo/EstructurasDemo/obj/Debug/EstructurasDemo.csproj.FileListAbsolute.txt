@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\bin\Debug\EstructurasDemo.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\bin\Debug\EstructurasDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\bin\Debug\EstructurasDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\obj\Debug\EstructurasDemo.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\obj\Debug\EstructurasDemo.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\obj\Debug\EstructurasDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\EstructurasDemo\EstructurasDemo\obj\Debug\EstructurasDemo.pdb
