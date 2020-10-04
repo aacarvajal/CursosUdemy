@@ -1,0 +1,6 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\bin\Debug\ParamsDemo.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\bin\Debug\ParamsDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\bin\Debug\ParamsDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\obj\Debug\ParamsDemo.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\obj\Debug\ParamsDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ParamsDemo\ParamsDemo\obj\Debug\ParamsDemo.pdb
