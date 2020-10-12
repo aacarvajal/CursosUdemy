@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\bin\Debug\HerenciaDemo.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\bin\Debug\HerenciaDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\bin\Debug\HerenciaDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\obj\Debug\HerenciaDemo.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\obj\Debug\HerenciaDemo.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\obj\Debug\HerenciaDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\HerenciaDemo\HerenciaDemo\obj\Debug\HerenciaDemo.pdb

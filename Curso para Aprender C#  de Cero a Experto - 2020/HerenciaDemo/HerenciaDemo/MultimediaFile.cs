@@ -14,12 +14,32 @@ namespace HerenciaDemo
         string nombre;
         string tipoElemento;
 
-        public void DesplegarInfor()
+        public MultimediaFile(string fechaCreacion, string fechaModificacion, 
+            string nombre, string tipoElemento)
+        {
+
+            this.fechaCreacion = fechaCreacion;
+            this.fechaModificacion = fechaModificacion;
+            this.nombre = nombre;
+            this.tipoElemento = tipoElemento;
+
+        }
+
+        public MultimediaFile() { }
+
+        public virtual void DesplegarInfor()
         {
 
             string info = fechaCreacion + " " + fechaCreacion + " " + nombre + " " + tipoElemento;
 
             Console.WriteLine(info);
+
+        }
+
+        public override string ToString()
+        {
+
+            return "asd";
 
         }
 

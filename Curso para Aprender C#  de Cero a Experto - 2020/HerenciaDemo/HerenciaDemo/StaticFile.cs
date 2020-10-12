@@ -9,11 +9,27 @@ namespace HerenciaDemo
     class StaticFile : MultimediaFile
     {
 
-        public void Editar()
+        //public StaticFile(string fechaCreacion, string fechaModificacion,
+        //    string nombre, string tipoElemento) 
+        //    : base (fechaCreacion,fechaModificacion,nombre,tipoElemento)
+        //{
+
+
+
+        //}
+
+        public virtual void Editar()
         {
 
             Console.WriteLine("Editando");
 
+        }
+
+        public override void DesplegarInfor()
+        {
+            //base.DesplegarInfor();//se ejecutaria el metodo de la clase padre
+
+            Console.WriteLine("archivo statico");
         }
 
     }
