@@ -11,7 +11,7 @@ namespace HerenciaDemo
         static void Main(string[] args)
         {
 
-            //MultimediaFile mf = new MultimediaFile("12/12/08","12/12/08", "nuevo archivo1", "video3");
+            /*//MultimediaFile mf = new MultimediaFile("12/12/08","12/12/08", "nuevo archivo1", "video3");
 
             MultimediaFile mf = new MultimediaFile();
 
@@ -45,6 +45,37 @@ namespace HerenciaDemo
             {
                 sf2.DesplegarInfor();
             }*/
+
+            /*MultimediaFile m1;
+
+            DynamicFile df = new DynamicFile();
+
+            StaticFile sf = new StaticFile();
+
+            OtherFile of = new OtherFile();
+
+            //ContadorPalabras cadena = "";
+
+            m1 = df;
+
+            Console.WriteLine(m1.ObtenerTipo());
+
+            m1 = sf;
+
+            Console.WriteLine(m1.ObtenerTipo());
+
+            m1 = of;
+
+            Console.WriteLine(m1.ObtenerTipo());*/
+
+            string prueba = "daf asdas das das";
+
+            //var c1 = MetodosExtension.ContarPalabras(prueba);
+
+            var c2 =  prueba.ContarPalabras(' ');
+
+            //Console.WriteLine(c1);
+            Console.WriteLine(c2);
 
             Console.ReadLine();
 

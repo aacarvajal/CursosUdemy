@@ -18,7 +18,7 @@ namespace HerenciaDemo
 
         //}
 
-        public virtual void Editar()
+        /*public virtual void Editar()
         {
 
             Console.WriteLine("Editando");
@@ -30,6 +30,11 @@ namespace HerenciaDemo
             //base.DesplegarInfor();//se ejecutaria el metodo de la clase padre
 
             Console.WriteLine("archivo statico");
+        }*/
+
+        public override string ObtenerTipo()
+        {
+            return "Archivo estatico";
         }
 
     }

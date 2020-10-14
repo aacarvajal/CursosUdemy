@@ -9,7 +9,7 @@ namespace HerenciaDemo
     class DynamicFile : MultimediaFile
     {
 
-        string duracion;
+        //string duracion;
 
         //public DynamicFile(string fechaCreacion, string fechaModificacion,
         //    string nombre, string tipoElemento)
@@ -28,8 +28,8 @@ namespace HerenciaDemo
         //}
 
         //añadiendo la palabra "virtual" hara sobreescribible el metodo que lo lleve
-        
-        public virtual void Reproduciendo()
+
+        /*public virtual void Reproduciendo()
         {
 
             Console.WriteLine("Reproduciendo");
@@ -55,6 +55,18 @@ namespace HerenciaDemo
             //base.DesplegarInfor();//se ejecutaria el metodo de la clase padre
 
             Console.WriteLine("archivo dinamico");
+        }*/
+
+        public override string ObtenerTipo()
+        {
+
+            calcularTamano();
+
+            string tArch = tipoArchivo;
+
+            //string.ContarPalabras();
+
+            return "Archivo dinamico";
         }
 
     }
