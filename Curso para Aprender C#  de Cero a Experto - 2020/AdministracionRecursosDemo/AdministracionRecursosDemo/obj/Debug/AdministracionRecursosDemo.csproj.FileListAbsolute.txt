@@ -1,0 +1,7 @@
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\bin\Debug\AdministracionRecursosDemo.exe.config
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\bin\Debug\AdministracionRecursosDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\bin\Debug\AdministracionRecursosDemo.pdb
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\obj\Debug\AdministracionRecursosDemo.csprojAssemblyReference.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\obj\Debug\AdministracionRecursosDemo.csproj.CoreCompileInputs.cache
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\obj\Debug\AdministracionRecursosDemo.exe
+E:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\AdministracionRecursosDemo\AdministracionRecursosDemo\obj\Debug\AdministracionRecursosDemo.pdb
