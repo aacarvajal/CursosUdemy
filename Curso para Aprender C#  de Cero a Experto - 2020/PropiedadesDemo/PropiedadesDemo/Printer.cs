@@ -9,8 +9,48 @@ namespace PropiedadesDemo
     class Printer
     {
 
+        public int Prueba//definicion de propiedades
+        {
+
+            get
+            {
+
+                return 1;
+
+            }
+            set
+            {
+
+                int temp = value;
+
+            }
+
+            //quitando el set, la propiedad seria de solo lectura
+            //quitando el get, la propiedad seria de solo escritura
+            //poniendo private se restringue el uso parcial de escritura o lectura, solo se puede cambiar uno de los dos
+
+        }
+
         int x;
         int y;
+
+        public int X
+        {
+
+            get => x;
+
+            set => x = VerificarX(value);
+ 
+        }
+
+        public int Y
+        {
+
+            get => y;
+
+            set => y = VerificarY(value);
+
+        }
 
         public Printer(int x, int y)
         {
@@ -53,18 +93,18 @@ namespace PropiedadesDemo
 
         }
 
-        public int ObtenerX()
-        {
+        //public int ObtenerX()
+        //{
 
-            return x;
+        //    return x;
 
-        }
-        public int ObtenerY()
-        {
+        //}
+        //public int ObtenerY()
+        //{
 
-            return y;
+        //    return y;
 
-        }
+        //}
 
         public void AsignarX(int x)
         {

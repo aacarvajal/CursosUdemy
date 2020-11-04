@@ -15,10 +15,24 @@ namespace PropiedadesDemo
 
             p.Print();
 
-            int x = p.ObtenerX();
-            p.AsignarX(x + 10);
+            p.X = 20;
+            p.Y = 15;
+
+            int x = p.X;
+            int y = p.Y;
+
+            p.X += 10;
 
             p.Print();
+
+            //temp = p.Prueba = 3;
+
+            //p.Print();
+
+            //int x = p.ObtenerX();
+            //p.AsignarX(x + 10);
+
+            //p.Print();
 
             Console.ReadLine();
 
