@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\bin\Debug\GenericsDemo.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\bin\Debug\GenericsDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\bin\Debug\GenericsDemo.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\obj\Debug\GenericsDemo.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\obj\Debug\GenericsDemo.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\obj\Debug\GenericsDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\GenericsDemo\GenericsDemo\obj\Debug\GenericsDemo.pdb
