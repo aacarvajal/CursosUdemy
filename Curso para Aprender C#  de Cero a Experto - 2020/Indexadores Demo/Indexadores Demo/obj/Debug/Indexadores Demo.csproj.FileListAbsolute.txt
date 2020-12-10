@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\bin\Debug\Indexadores Demo.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\bin\Debug\Indexadores Demo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\bin\Debug\Indexadores Demo.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\obj\Debug\Indexadores Demo.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\obj\Debug\Indexadores Demo.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\obj\Debug\Indexadores Demo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\Indexadores Demo\Indexadores Demo\obj\Debug\Indexadores Demo.pdb
