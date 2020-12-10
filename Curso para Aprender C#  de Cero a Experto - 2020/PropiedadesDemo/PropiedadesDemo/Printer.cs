@@ -9,6 +9,18 @@ namespace PropiedadesDemo
     class Printer
     {
 
+        //public int Z { get; set; }//lectura/escritura
+        //public int Z { get; } = 10;//solo lectura
+        //no se puede poner unicamente un set, debe tener incluido get o solo llevar get
+        //int z;
+        //public int Z
+        //{
+
+        //    get { return z; }
+        //    set { z = value; }
+
+        //}
+
         public int Prueba//definicion de propiedades
         {
 
@@ -40,7 +52,7 @@ namespace PropiedadesDemo
             get => x;
 
             set => x = VerificarX(value);
- 
+
         }
 
         public int Y
@@ -57,6 +69,7 @@ namespace PropiedadesDemo
 
             this.x = VerificarX(x);
             this.y = VerificarY(y);
+            //Z = 10;//solo se puede declarar en el construtor un valor de la propiedad si es de solo lectura
 
         }
 

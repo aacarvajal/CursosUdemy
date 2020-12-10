@@ -11,19 +11,52 @@ namespace PropiedadesDemo
         static void Main(string[] args)
         {
 
-            Printer p = new Printer(10, 15);
+            Triangulo t1 = new Triangulo("rojo")
+            {
+            
+                Lado1 = 20
 
-            p.Print();
+            };
 
-            p.X = 20;
-            p.Y = 15;
+            Triangulo t2 = new Triangulo("rojo")
+            {
 
-            int x = p.X;
-            int y = p.Y;
+                Lado2 = 20
 
-            p.X += 10;
+            };
 
-            p.Print();
+            Triangulo t3 = new Triangulo("rojo")//inicializador de objetos
+            {
+
+                Lado1 = 20,
+                Lado2 = 20,
+                Lado3 = 20
+
+            };
+
+            Triangulo t4 = new Triangulo("rojo")
+            {
+
+                Lado1 = 1,
+                Lado3 = 2
+
+            }
+
+            //Printer p = new Printer(10, 15);
+
+            //p.Z = 10;
+
+            //p.Print();
+
+            //p.X = 20;
+            //p.Y = 15;
+
+            //int x = p.X;
+            //int y = p.Y;
+
+            //p.X += 10;
+
+            //p.Print();
 
             //temp = p.Prueba = 3;
 

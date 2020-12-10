@@ -11,6 +11,7 @@ namespace PropiedadesDemo
         int GetX();
         void SetX(int value);
 
+        int X { get; set; }
         int Y { get; set; }
 
     }
