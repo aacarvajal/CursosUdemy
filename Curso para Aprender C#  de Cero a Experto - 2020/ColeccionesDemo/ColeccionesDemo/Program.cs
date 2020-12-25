@@ -120,24 +120,110 @@ namespace ColeccionesDemo
 
             //CLASE COLECCION Stack<T>//pila
 
-            Stack<int> num = new Stack<int>();
+            //Stack<int> num = new Stack<int>();
 
-            for (int i = 0; i < 10; i++)
-            {
+            //for (int i = 0; i < 10; i++)
+            //{
 
-                num.Push(i);//insertar elemento
+            //    num.Push(i);//insertar elemento
 
-            }
+            //}
 
-            var elemento = num.Pop();//sacar un elemento de la pila
+            //var elemento = num.Pop();//sacar un elemento de la pila
 
-            while (num.Count > 0)
-            {
+            //while (num.Count > 0)
+            //{
 
-                elemento = num.Pop();
-                Console.WriteLine(elemento);
+            //    elemento = num.Pop();
+            //    Console.WriteLine(elemento);
 
-            }
+            //}
+
+            //CLASE COLECCION Dictionary<T> //Diccionario generico
+
+            //int[] num = new int[3] { 1, 2, 3 };
+
+            //num[0] = 22;//array asociativo
+
+            //Dictionary<int, int> d = new Dictionary<int, int>();
+
+            //Dictionary<string, string> frase = new Dictionary<string, string>();
+
+            //frase.Add("CP", "asdas");
+            //frase.Add("CP1", "asdas1");
+            //         //clave  //valor
+            //foreach (var item in frase)
+            //{
+
+            //    string c = item.Key;
+            //    string f = item.Value;
+            //    Console.WriteLine($"{c}, {f}");//cadena interpolada
+
+            //}
+
+            //frase["CP1"] = "1234";
+
+            //foreach (var item in frase)
+            //{
+
+            //    string c = item.Key;
+            //    string f = item.Value;
+            //    Console.WriteLine($"{c}, {f}");//cadena interpolada
+
+            //}
+
+            //for (int i = 0; i < 10; i++)
+            //{
+
+            //    d.Add(i,i);
+
+            //}
+
+            //CLASE COLECCION SortedList<T>//lista ordenada
+
+            //SortedList<string, string> sl = new SortedList<string, string>();
+
+            //sl.Add("Z", "Za");
+            //sl.Add("A", "Aa");
+            //sl.Add("B", "Bb");
+
+            //foreach (var item in sl)
+            //{
+
+            //    string v1 = item.Key;
+            //    string v2 = item.Value;
+            //    Console.WriteLine($"{v1}:{v2}");
+
+            //}
+
+            //CLASE COLECCION HashSet<T>
+
+            //HashSet<string> hs = new HashSet<string>();
+            //hs.Add("cocina");
+            //hs.Add("negocio");
+            //hs.Add("otros");
+
+            //HashSet<string> hs2 = new HashSet<string>(new string[] { "cocina", "negocio2", "otros" });
+
+            //foreach (var item in hs)
+            //{
+
+            //    Console.WriteLine(item);
+
+            //}
+
+            //Console.WriteLine();
+
+            ////hs.IntersectWith(hs2);
+            ////hs.UnionWith(hs2);
+            //hs.ExceptWith(hs2);
+
+            //foreach (var item in hs)
+            //{
+
+            //    Console.WriteLine(item);
+
+            //}
 
             Console.ReadLine();
 
