@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\bin\Debug\ColeccionesEnumerablesDemo.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\bin\Debug\ColeccionesEnumerablesDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\bin\Debug\ColeccionesEnumerablesDemo.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\obj\Debug\ColeccionesEnumerablesDemo.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\obj\Debug\ColeccionesEnumerablesDemo.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\obj\Debug\ColeccionesEnumerablesDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\ColeccionesEnumerablesDemo\ColeccionesEnumerablesDemo\obj\Debug\ColeccionesEnumerablesDemo.pdb
