@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace ColeccionesDemo
 {
+
+    class Cliente
+    {
+
+        public int ID { get; set; }
+        public string nombre { get; set; }
+
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -225,8 +234,91 @@ namespace ColeccionesDemo
 
             //}
 
+            //Inicializando colecciones
+
+            //List<string> elemento = new List<string>
+            //{
+
+            //    "as",
+            //    "asd",
+            //    "asdf"
+
+            //};
+
+            //Dictionary<int, int> valor = new Dictionary<int, int>
+            //{
+
+            //    [0] = 1,
+            //    [1] = 1,
+            //    [2] = 1
+
+            //};
+
+            //Dictionary<string, string> cadena = new Dictionary<string, string>
+            //{
+
+            //    { "HP","HP1" },
+            //    { "AS","AS1" }
+
+            //};
+
+            //var n = cadena["HP"];
+
+            //El método Find, predicados y Expresiones Lambda
+
+            //List<Cliente> elemento = new List<Cliente>
+            //{
+
+            //    new Cliente{ID = 1, nombre = "as"},
+            //    new Cliente{ID = 2, nombre = "asd"},
+            //    new Cliente{ID = 3, nombre = "asdf"}
+
+            //};
+
+            //var cliente = elemento.Find((Cliente c) =>
+            //{
+
+            //    return c.ID == 3;
+
+            //});
+
+            //otra forma de hacerlo
+
+            //var cliente = elemento.Find(c => c.ID == 3);//no se especifica el tipo, no hace falta poner un return y no hacen falta llaves ya que se simplifica
+
+            //if (cliente != null)
+            //{
+
+            //    Console.WriteLine(cliente.nombre);
+
+            //}
+            //else
+            //{
+
+            //    Console.WriteLine("No existe");
+
+            //}
+
+            //Ejemplos de expresiones lambda
+
+            //int numero = numero * numero;
+            //numero = { return numero * numero};
+            //(int numero) => numero / 2:
+            
+            //() => reproductor.Reproducir(true);
+            //(x, y) => { x++; return x / y; }
+            //(ReferenceEquals int x, int y) => { x++; return x / y; }
+
             Console.ReadLine();
 
         }
+
+        //static int HacerAlgo()
+        //{
+
+        //    return 1; 
+
+        //}
+
     }
 }
