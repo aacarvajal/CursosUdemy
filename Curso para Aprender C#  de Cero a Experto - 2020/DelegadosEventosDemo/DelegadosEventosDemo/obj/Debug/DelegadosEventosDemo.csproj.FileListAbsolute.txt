@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\bin\Debug\DelegadosEventosDemo.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\bin\Debug\DelegadosEventosDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\bin\Debug\DelegadosEventosDemo.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\obj\Debug\DelegadosEventosDemo.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\obj\Debug\DelegadosEventosDemo.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\obj\Debug\DelegadosEventosDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\DelegadosEventosDemo\DelegadosEventosDemo\obj\Debug\DelegadosEventosDemo.pdb
