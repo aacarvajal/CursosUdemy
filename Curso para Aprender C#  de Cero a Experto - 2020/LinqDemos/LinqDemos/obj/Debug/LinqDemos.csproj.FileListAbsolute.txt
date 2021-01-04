@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\bin\Debug\LinqDemos.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\bin\Debug\LinqDemos.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\bin\Debug\LinqDemos.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\obj\Debug\LinqDemos.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\obj\Debug\LinqDemos.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\obj\Debug\LinqDemos.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\LinqDemos\LinqDemos\obj\Debug\LinqDemos.pdb
