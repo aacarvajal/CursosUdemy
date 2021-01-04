@@ -9,7 +9,7 @@ namespace DelegadosEventosDemo
     class SistemaLuces
     {
 
-        public void ApagarLuces()
+        public void ApagarLuces(int cantidadLuces)
         {
 
             Console.WriteLine("Luces apagadas");

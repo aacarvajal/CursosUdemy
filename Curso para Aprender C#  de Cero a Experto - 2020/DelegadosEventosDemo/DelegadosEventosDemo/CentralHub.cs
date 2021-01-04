@@ -10,8 +10,10 @@ namespace DelegadosEventosDemo
     {
 
         //un delegado es una referencia a un metodo
-        public delegate void iniciarProtocoloDelegate();
-        iniciarProtocoloDelegate iniciarProtocolo;
+
+        ControlEmpleados ce = new ControlEmpleados();
+
+        //iniciarProtocoloDelegate iniciarProtocolo;
 
         //SistemaAlarmas alarmas = new SistemaAlarmas();
         //SistemaLuces luces = new SistemaLuces();
@@ -30,20 +32,26 @@ namespace DelegadosEventosDemo
 
         //}
 
-        public void IniciarProtocoloCierre()
+        //public void IniciarProtocoloCierre()
+        //{
+
+        //    //luces.ApagarLuces();
+        //    //alarmas.EncenderAlarmas();
+        //    //elect.ApagarElectrodomesticos();
+        //    iniciarProtocolo();//es un apuntador a uno o varios metodos
+
+        //}
+
+        public void Add(Action metodoProtocolo) => ce.EmpleadoCero += metodoProtocolo;
+
+        public void Remove(Action metodoProtocolo) => ce.EmpleadoCero -= metodoProtocolo;
+
+        public void Salida()
         {
 
-            //luces.ApagarLuces();
-            //alarmas.EncenderAlarmas();
-            //elect.ApagarElectrodomesticos();
-            iniciarProtocolo();//es un apuntador a uno o varios metodos
+            ce.Salida();
 
         }
-
-        public void Add(iniciarProtocoloDelegate metodoProtocolo) => iniciarProtocolo += metodoProtocolo;
-
-        public void Remove(iniciarProtocoloDelegate metodoProtocolo) => iniciarProtocolo -= metodoProtocolo;
-
 
     }
 }
