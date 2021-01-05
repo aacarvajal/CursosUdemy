@@ -17,7 +17,10 @@ public class HolaMundo1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Hola Mundo");
+        //string
+        String cadena = "Hola Mundo";
+        System.out.println(cadena);
+        System.out.println("cadena.toUpperCase()" + cadena.toUpperCase());
         
     }
     
