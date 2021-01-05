@@ -137,14 +137,14 @@ namespace LinqDemos
             //});
 
             //var nomEst = from nombres in estudiantes select nombres.Nombre;
-            var nomEst = from nombres in estudiantes select new { nombres.Nombre, nombres.ApellidoPaterno};
+            //var nomEst = from nombres in estudiantes select new { nombres.Nombre, nombres.ApellidoPaterno};
 
-            foreach (var item in nomEst)
-            {
+            //foreach (var item in nomEst)
+            //{
 
-                Console.WriteLine(item);
+            //    Console.WriteLine(item);
 
-            }
+            //}
 
             //foreach (var item in nomEst)
             //{
@@ -157,15 +157,15 @@ namespace LinqDemos
             //    .Where(u => u.Pais == "Estados Unidos")
             //    .Select(u => u.Universidad);
 
-            var uniEU = from u in universidades 
-                        where string.Equals(u.Pais, "Estados Unidos") select u.Universidad;
+            //var uniEU = from u in universidades 
+            //            where string.Equals(u.Pais, "Estados Unidos") select u.Universidad;
 
-            foreach (var item in uniEU)
-            {
+            //foreach (var item in uniEU)
+            //{
 
-                Console.WriteLine(item);
+            //    Console.WriteLine(item);
 
-            }
+            //}
 
             //foreach (var item in uniEU)
             //{
@@ -178,35 +178,35 @@ namespace LinqDemos
             //    .OrderBy(u => u.Universidad)
             //    .Select(u => u.Universidad);
 
-            var nomUni = from u in universidades orderby u.Universidad select u.Universidad;
+            //var nomUni = from u in universidades orderby u.Universidad select u.Universidad;
 
-            foreach (var item in nomUni)
-            {
+            //foreach (var item in nomUni)
+            //{
 
-                Console.WriteLine(item);
+            //    Console.WriteLine(item);
 
-            }
+            //}
 
             //var uniPais = universidades.GroupBy(u => u.Pais);
 
-            var uniPais = from u in universidades group u by u.Pais;
+            //var uniPais = from u in universidades group u by u.Pais;
 
-            foreach (var grupo in uniPais)
-            {
+            //foreach (var grupo in uniPais)
+            //{
 
-                Console.WriteLine($"Universidad: {grupo.Key} \t {grupo.Count()}");
-                foreach (var item in grupo)
-                {
+            //    Console.WriteLine($"Universidad: {grupo.Key} \t {grupo.Count()}");
+            //    foreach (var item in grupo)
+            //    {
 
-                    Console.WriteLine($"\t {item.Universidad}");
+            //        Console.WriteLine($"\t {item.Universidad}");
 
-                }
+            //    }
 
-            }
+            //}
 
             //int numUni = universidades.Select(x => x.Universidad).Count();//5
 
-            int numUni = (from u in universidades select u.Universidad).Count();
+            //int numUni = (from u in universidades select u.Universidad).Count();
 
             //int numPais = universidades.Select(x => x.Pais).Distinct().Count();//4
 
@@ -225,10 +225,10 @@ namespace LinqDemos
             //    u => u.Universidad,
             //    (e, u) => new { e.Nombre, e.ApellidoPaterno, u.Pais });
 
-            var join = from u in universidades
-                       join e in estudiantes
-                       on u.Universidad equals e.Universidad
-                       select new { e.Nombre, e.ApellidoPaterno, u.Pais };
+            //var join = from u in universidades
+            //           join e in estudiantes
+            //           on u.Universidad equals e.Universidad
+            //           select new { e.Nombre, e.ApellidoPaterno, u.Pais };
 
             //foreach (var item in join)
             //{
@@ -237,7 +237,49 @@ namespace LinqDemos
 
             //}
 
+            //var parte = estudiantes.Skip(1).Take(2);
 
+            //foreach (var item in parte)
+            //{
+
+            //    Console.WriteLine(item);
+
+            //}
+
+            //var cualquier = estudiantes.Any(x => x.Nombre.StartsWith("A"));
+
+            //var todos = estudiantes.All(x => x.Nombre != "");
+
+            //var primero = estudiantes.First(x => x.Nombre.StartsWith("A"));
+            //var primero = estudiantes.FirstOrDefault(x => x.Nombre.StartsWith("A"));//devuelve nulo si no encuentra el valor
+
+            //if (primero != nulll)
+            //{
+            //}
+
+            var estNom = estudiantes.Select(x => x.Nombre);
+
+            foreach (var item in estNom)
+            {
+
+                Console.WriteLine(item);
+
+            }
+
+            estudiantes[0] = new
+            {
+                EstudianteID = 1,
+                Nombre = "A",
+                ApellidoPaterno = "D",
+                Universidad = "Harvard"
+            };
+
+            foreach (var item in estNom)
+            {
+
+                Console.WriteLine(item);
+
+            }
 
             Console.ReadLine();
 
