@@ -1,0 +1,7 @@
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\bin\Debug\SobrecargaOperadoresDemo.exe.config
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\bin\Debug\SobrecargaOperadoresDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\bin\Debug\SobrecargaOperadoresDemo.pdb
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\obj\Debug\SobrecargaOperadoresDemo.csprojAssemblyReference.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\obj\Debug\SobrecargaOperadoresDemo.csproj.CoreCompileInputs.cache
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\obj\Debug\SobrecargaOperadoresDemo.exe
+D:\las cosas\Cursos\Cursos Udemy\Curso para Aprender C#  de Cero a Experto - 2020\SobrecargaOperadoresDemo\SobrecargaOperadoresDemo\obj\Debug\SobrecargaOperadoresDemo.pdb
