@@ -1,4 +1,4 @@
-public class Caracteres {
+public class PrimitivosCaracteres {
 
     public static void main(String[] args) {
 
@@ -12,6 +12,13 @@ public class Caracteres {
         char simbolo = '@';
         System.out.println("simbolo = " + simbolo);
         System.out.println("simbolo + caracter= " + (simbolo == caracter));
+
+        char espacio = ' ';
+        char retroceso = '\b';
+        char tab = '\t';
+        char nuevaLinea = '\n';
+        char retornoCarro = '\r';
+        System.getProperty("line.separator");//salto de linea
 
         System.out.println("Character byte: "+ Character.BYTES);
         System.out.println("Character bites: "+ Character.SIZE);
