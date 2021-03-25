@@ -17,10 +17,14 @@ public class EjemploStringTestRendimientoConcat {
 
         }
 
+        //liberar espacio
+        System.gc();
+
         long fin = System.currentTimeMillis();
         System.out.println(fin - iniciado);
         System.out.println("c = " + c);
         System.out.println("sb.toString() = " + sb.toString());
+        System.exit(0);
 
     }
 
